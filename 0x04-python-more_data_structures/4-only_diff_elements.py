@@ -3,9 +3,7 @@
 
 def only_diff_elements(set_1, set_2):
     """
-    Function that return 
-    all the elemnts and cant 
-    duplicate one of them
+    A function that returns a set of all elements
+    present in only one set.
     """
-
     return (set_1 ^ set_2)
