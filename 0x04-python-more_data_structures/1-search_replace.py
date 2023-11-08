@@ -6,12 +6,11 @@ def search_replace(my_list, search, replace):
     A function that replaces all occurrences
     of an element by another in a new list
     """
-
-    newm = []
+    new_list = []
     for element in my_list:
         if element == search:
-            newm.append(replace)
+            new_list.append(replace)
         else:
-            newm.append(element)
-    return newm
+            new_list.append(element)
+    return new_list
 
