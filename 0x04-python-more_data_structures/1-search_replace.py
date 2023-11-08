@@ -12,5 +12,5 @@ def search_replace(my_list, search, replace):
             newm.append(replace)
         else:
             newm.append(element)
-    retun newm
+    return newm
 
