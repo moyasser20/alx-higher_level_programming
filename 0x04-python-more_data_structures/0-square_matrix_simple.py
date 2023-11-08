@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
 def square_matrix_simple(matrix=[]):
-
+    """
+    word function that computes 
+    the square of a matrix
+    """
 
     newm = []
 
